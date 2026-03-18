@@ -90,6 +90,9 @@
                     <links>
                         <link>https://javadoc.io/doc/io.github.openfeign/feign-core/${feign.version}/</link>
                     </links>
+                    <additionalJOptions>
+                        <additionalJOption>--syntax-highlight</additionalJOption>
+                    </additionalJOptions>
                 </configuration>
             </plugin>
         </plugins>
